@@ -1,8 +1,8 @@
+mod utils;
 mod activations;
-mod losses;
 
+use crate::utils::functions as utils_funcs;
 use crate::activations::functions as act_funcs;
-use crate::losses::functions as loss_funcs;
 
 fn main() {
     println!("Hello world.")
