@@ -1,0 +1,8 @@
+[package]
+name = "perceptrons"
+version = "0.1.0"
+authors = ["Ege Sabanci <egesabanci@outlook.com.tr>"]
+edition = "2018"
+
+[dependencies]
+rand = "0.8.0"
