@@ -1,0 +1,22 @@
+{
+  "name": "perceptron-implementation",
+  "version": "1.0.0",
+  "description": "Simple single-layer perceptron implementation in javascript",
+  "type": "module",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "jest tests/perceptron.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egesabanci/perceptrons.git"
+  },
+  "author": "Ege Sabanci <egesabanci@outlook.com.tr>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/egesabanci/perceptrons/issues"
+  },
+  "dependencies": {
+    "jest": "^27.4.7"
+  }
+}
