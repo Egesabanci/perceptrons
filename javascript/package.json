@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "node src/main.js",
-    "test": "jest tests/perceptron.test.js"
+    "test": "node ./tests/perceptron.test.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
     "url": "https://github.com/egesabanci/perceptrons/issues"
   },
   "dependencies": {
+    "chalk": "^5.0.1",
     "jest": "^27.4.7"
   }
 }
