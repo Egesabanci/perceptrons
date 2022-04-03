@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"target": "es6",
+		"outDir": "./bin",
+		"module": "es6",
+		"removeComments": true,
+		"sourceMap": true,
+		"allowUnreachableCode": false,
+		"allowUnusedLabels": false,
+	},
+
+	"files": [
+		"./main.ts",
+		"./activations.ts",
+		"./algorithm.ts"
+	]
+}
